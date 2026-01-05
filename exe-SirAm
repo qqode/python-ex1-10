@@ -1,0 +1,14 @@
+#10 Soalan Python (Sequence) - Penyelesaian Masalah Untuk Pemula
+
+#Soalan 1 (Input dan Output asas)
+#Create a python program that receives one number from the user and displays the number back to the screen.
+#input from user
+>>> user_input = input('Enter a number..')
+Enter a number..
+>>> print('Enter a number: 7',user_input)
+Enter a number: 7 
+#output from user
+>>> print('User entered: 7',user_input)
+User entered: 7 
+
+#Soalan 2
