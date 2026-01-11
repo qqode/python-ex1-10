@@ -11,4 +11,44 @@ Enter a number: 7
 >>> print('User entered: 7',user_input)
 User entered: 7 
 
-#Soalan 2
+#Soalan 4 (Penggunaan pembolehubah berguna)
+#Create a python program that receives the length and width of the rectangle from the user and calculates the area of the rectangle.
+>>> #the rectangle length      
+>>> length = (input("enter the length of the rectangle:.."))      
+enter the length of the rectangle:..
+>>> #the rectangle width       
+>>> width = (input("enter the width of the rectangle:.."))    
+enter the width of the rectangle:..
+>>> #calculates the area of the rectangle
+>>> input_area = ("length*width")       
+>>> print(input_area)   
+length*width
+>>> print("the area of the rectangle is:..", input_area)      
+the area of the rectangle is:.. length*width
+
+#Soalan 9 (Gabungan pelbagai input & pengiraan)
+#the name of the student
+>>> name = (input("enter student name:.."))
+enter student name:..
+>>> student_name = ("Rania")
+>>> print("enter student name:..", student_name)       
+enter student name:.. Rania
+#marks for 3 subjects
+>>> english = ("99%")       
+>>> history = ("75%")       
+>>> science = ("88%")
+#calculate marks
+>>> marks = (input("english*history*science"))       
+english*history*science
+>>> subject_marks = ("99%*75%*88%")
+>>> total_marks = ("259%")       
+>>> average_marks = ("86.33%")
+#display total marks and average marks
+>>> print(total_marks)      
+259%
+>>> print(average_marks)      
+86.33%
+
+#Soalan 
+
+
