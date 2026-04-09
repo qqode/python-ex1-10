@@ -1,54 +1,61 @@
-#10 Soalan Python (Sequence) - Penyelesaian Masalah Untuk Pemula
-
 #Soalan 1 (Input dan Output asas)
-#Create a python program that receives one number from the user and displays the number back to the screen.
-#input from user
->>> user_input = input('Enter a number..')
-Enter a number..
->>> print('Enter a number: 7',user_input)
-Enter a number: 7 
-#output from user
->>> print('User entered: 7',user_input)
-User entered: 7 
+num = int(input("Enter a number :"))
+print(num)
+
+#Soalan 2 (Operasi aritmetik mudah)
+num1 = int(input("Number 1 : "))
+num2 = int(input("Number 2 : "))
+sum = num1 + num2
+print(sum)
+
+#Soalan 3 (Lebih daripada satu operasi)
+num1 = int(input("Number 1 : "))
+num2 = int(input("Number 2 : "))
+sum = num1 + num2
+diff = num1-num2
+print(sum)
+print(diff)
 
 #Soalan 4 (Penggunaan pembolehubah berguna)
-#Create a python program that receives the length and width of the rectangle from the user and calculates the area of the rectangle.
->>> #the rectangle length      
->>> length = (input("enter the length of the rectangle:.."))      
-enter the length of the rectangle:..
->>> #the rectangle width       
->>> width = (input("enter the width of the rectangle:.."))    
-enter the width of the rectangle:..
->>> #calculates the area of the rectangle
->>> input_area = ("length*width")       
->>> print(input_area)   
-length*width
->>> print("the area of the rectangle is:..", input_area)      
-the area of the rectangle is:.. length*width
+length = float(input("Length : "))
+width = float(input("Width : "))
+area = Length * Width 
+print(f"{area:.2f}")
+
+#Soalan 5 (Pengiraan berasaskan formula)
+pi = 3.142
+radius = float(input("Radius : "))
+area = pi*(radius**2)
+print(f"{area:.2f}")
+
+#Soalan 6 (Pengendalian input jenis teks & nombor)
+name = input("Name : ")
+age = int(input("Age : "))
+print(f"Hello {name}, you are {age} years old")
+
+#Soalan 7 (Penukaran unit)
+celsius = float(input("Celsius : "))
+fahrenheit = (celsius*9/5) + 32
+print(f"{fahrenheit:.2f}°F")
+
+#Soalan 8 (Pengiraan kewangan mudah)
+price = float(input("Price : RM "))
+quantity = int(input("Quantity : "))
+total_price = price * quantity
+print (f"Total : {total_price:.2f}")
 
 #Soalan 9 (Gabungan pelbagai input & pengiraan)
-#the name of the student
->>> name = (input("enter student name:.."))
-enter student name:..
->>> student_name = ("Rania")
->>> print("enter student name:..", student_name)       
-enter student name:.. Rania
-#marks for 3 subjects
->>> english = ("99%")       
->>> history = ("75%")       
->>> science = ("88%")
-#calculate marks
->>> marks = (input("english*history*science"))       
-english*history*science
->>> subject_marks = ("99%*75%*88%")
->>> total_marks = ("259%")       
->>> average_marks = ("86.33%")
-#display total marks and average marks
->>> print(total_marks)      
-259%
->>> print(average_marks)      
-86.33%
+name = input("Name : ")
+subject1 = int(input("Marks : "))
+subject2 = int(input("Marks : "))
+subject3 = int(input("Marks : "))
+total = subject1 + subject2 + subject3
+avg = (total/3)
+print(total)
+print(f"{avg:.2f}")
 
-#Soalan 
-
-
+#Soalan 10 (Masalah dunia sebenar – lengkap & berurutan)
+distance = float(input("The distance travelled (km) : "))
+time = float(input("The time taken (hours) : "))
+average_speed = (distance/time)
+print(f"The average speed of the vehicle was {speed:.2f} km/h")
